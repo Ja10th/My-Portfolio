@@ -1,13 +1,138 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --color-bg: #1f1f38;
+  --color-cust: #08ff45;
+  --color-font: #fff;
+  --color-font-2: #000;
+  --text-light: rgb(172, 169, 169);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--color-bg);
+  color: var(--color-font);
+  line-height: 1.7;
+}
+
+/* General styles */
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 8rem;
+}
+
+section > h2,
+section > h5 {
+  text-align: center;
+}
+
+section > h2 {
+  color: var(--color-cust);
+  margin-bottom: 3rem;
+}
+
+a {
+  color: var(--color-cust);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--color-font);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-cust);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.5em;
+  cursor: pointer;
+  border: 1px solid var(--color-cust);
+  transition: var(--transition);
+}
+.btn-primary {
+  width: max-content;
+  display: inline-block;
+  background: var(--color-cust);
+  border: 1px solid var(--color-cust);
+  color: var(--color-font);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  color: var(--color-cust);
+  background: var(--color-font);
+}
+.btn:hover {
+  background: var(--color-font);
+  color: var(--color-bg);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* media query tablet */
+
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 6rem;
+  }
+}
+/* media query phone */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
 }
