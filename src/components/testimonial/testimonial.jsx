@@ -3,7 +3,6 @@ import "./testimonial.css";
 import AV1 from "../../assets/avatar1.jpg";
 import AV2 from "../../assets/avatar2.jpg";
 import AV3 from "../../assets/avatar3.jpg";
-import AV4 from "../../assets/avatar4.jpg";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -17,28 +16,22 @@ import "swiper/css/pagination";
 const testimonial = () => {
   const data = [
     {
-      avatar: AV1,
-      name: "Mark Weblow",
+      avatar: AV2,
+      name: "Kahlida",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nihil officiis, incidunt vel, necessitatibus esse voluptates tenetur, eligendi voluptas explicabo maiores perferendis labor vitae id ea natus minus est? Optio!",
+        "James was a pleasure to work with. He had the skills and expertise to complete the project and he worked very quickly! I look forward to another opportunity to work with him again. From Voluteering at CatchaFire",
     },
     {
-      avatar: AV2,
-      name: "Tina Snow",
+      avatar: AV1,
+      name: "Moniola School",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nihil officiis, incidunt vel, necessitatibus esse voluptates tenetur, eligendi voluptas explicabo maiores perferendis labor vitae id ea natus minus est? Optio!",
+        "He's a professional. He designed our school websites to our taste and most importantly he's very fast in doing so. He works fast and provide quality projects",
     },
     {
       avatar: AV3,
-      name: "Marcus Eddie",
+      name: "FCHBM",
       review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nihil officiis, incidunt vel, necessitatibus esse voluptates tenetur, eligendi voluptas explicabo maiores perferendis labor vitae id ea natus minus est? Optio!",
-    },
-    {
-      avatar: AV4,
-      name: "Angela Beth",
-      review:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum nihil officiis, incidunt vel, necessitatibus esse voluptates tenetur, eligendi voluptas explicabo maiores perferendis labor vitae id ea natus minus est? Optio!",
+        "He worked on our church website and all we can say is we're grateful for the excellent work he did. Our messages was able to get through with members and people can connect back with us",
     },
   ];
   return (

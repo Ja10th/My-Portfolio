@@ -28,14 +28,14 @@ const Nav = () => {
       className={activeNav === "#experience" ? "active" : " "}>
         <MdGroupWork />
       </a>
-      <a href="#services"
-      onClick={() => setActiveNav("#services")}
-      className={activeNav === "#services" ? "active" : " "}>
-        <MdMiscellaneousServices />
-      </a>
       <a href="#portfolio"
       onClick={() => setActiveNav("#portfolio")}
       className={activeNav === "#portfolio" ? "active" : " "}>
+        <MdMiscellaneousServices />
+      </a>
+      <a href="#testimonial"
+      onClick={() => setActiveNav("#testimonial")}
+      className={activeNav === "#testimonial" ? "active" : " "}>
         <SiTransportforlondon />
       </a>
       <a href="#contact"

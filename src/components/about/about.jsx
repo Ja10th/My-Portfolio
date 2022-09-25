@@ -16,7 +16,7 @@ const about = () => {
           <div className="about__me-image">
             <img
               src={
-                "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                "https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=2000"
               }
               alt="image"
               className="image"
@@ -39,13 +39,13 @@ const about = () => {
             <article className="about__card">
               <AiOutlineFundProjectionScreen className="about__icon" />
               <h5>Project</h5>
-              <small>30+ completed</small>
+              <small>20+ completed</small>
             </article>
           </div>
           <p>
-            My name is James Oluwaleye and I'm a front end developer. I've 2+
-            years experience in HTML, CSS and JavaScript. I make use of
-            frameworks like Bootstrap and React.js to spice up my work
+            My name is James Oluwaleye and I'm a front end developer. I've an extensive background in Computer Engineering. Before I was admitted to study Computer Engineering in 2017
+            I took tutorials on web development and My first professional experience i.e industrial training was as a front end developer intern where I took several courses and did several project while collaborating with UX designers and back end developers to produce finished product
+            The Skills I'm familiar with are HTML, CSS, JavaScript and I use Tailwind CSS and React as frameworks. I work for Catchafire as a voluteer
           </p>
 
           <a href="#contact" class="btn btn-primary">

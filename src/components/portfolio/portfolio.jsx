@@ -1,54 +1,54 @@
 import React from "react";
 import "./portfolio.css";
-import Port1 from "../../assets/portfolio1.png";
-import Port2 from "../../assets/portfolio2.png";
-import Port3 from "../../assets/portfolio3.png";
-import Port4 from "../../assets/portfolio4.png";
-import Port5 from "../../assets/portfolio5.png";
-import Port6 from "../../assets/portfolio6.png";
+import Port1 from "../../assets/dashboard.png";
+import Port2 from "../../assets/app.png";
+import Port3 from "../../assets/ch.png";
+import Port4 from "../../assets/cloud.png";
+import Port5 from "../../assets/agency.png";
+import Port6 from "../../assets/mo.png";
 const portfolio = () => {
   const data = [
     {
       id: 1,
       image: Port1,
-      title: "HTML Basics",
-      github: "https://www.github.com",
-      demo: "https://dribbble.com/alien_pixels",
+      title: "E-Commerce Dashboard",
+      github: "https://github.com/Ja10th/Ecommerce-Dashboard",
+      demo: "https://jhoppy.netlify.app",
     },
     {
       id: 2,
       image: Port2,
-      title: "CSS Basics",
-      github: "https://www.github.com",
-      demo: "https://dribbble.com/alien_pixels",
+      title: "Mac Appstore redesign",
+      github: "https://github.com/Ja10th/Mac-Appstore-Redesign",
+      demo: "https://github.com/Ja10th/Mac-Appstore-Redesign",
     },
     {
       id: 3,
       image: Port3,
-      title: "JavaScript Basics",
-      github: "https://www.github.com",
-      demo: "https://dribbble.com/alien_pixels",
+      title: "Church Website",
+      github: "https://github.com/Ja10th/fchbmchurch",
+      demo: "https://www.fchbm.com",
     },
     {
       id: 4,
       image: Port4,
-      title: "React Basics",
-      github: "https://www.github.com",
-      demo: "https://dribbble.com/alien_pixels",
+      title: "Cloud Management website",
+      github: "https://github.com/Ja10th/Cloud-Management-website",
+      demo: "https://github.com/Ja10th/Cloud-Management-website",
     },
     {
       id: 5,
       image: Port5,
-      title: "Python Basics",
-      github: "https://www.github.com",
-      demo: "https://dribbble.com/alien_pixels",
+      title: "Travel Agency",
+      github: "https://github.com/Ja10th/Travel-Agency",
+      demo: "https://travelagencyja.netlify.app",
     },
     {
       id: 6,
       image: Port6,
-      title: "Flask Basics",
-      github: "https://www.github.com",
-      demo: "https://dribbble.com/alien_pixels",
+      title: "Movie App",
+      github: "https://github.com/Ja10th/Movie-App",
+      demo: "https://github.com/Ja10th/Movie-App",
     },
   ];
   return (

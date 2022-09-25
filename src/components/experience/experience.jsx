@@ -29,20 +29,27 @@ const experience = () => {
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JavaScript</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Git and Github</h4>
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>BootStrap</h4>
-                <small className="text-light">Experience</small>
+                <h4>React</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>React</h4>
+                <h4>Tailwind CSS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
