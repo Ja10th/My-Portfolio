@@ -1,2 +1,4 @@
-#Started react by building my portfolio. 
- ![screencapture-localhost-3000-2022-07-14-11_58_45](https://user-images.githubusercontent.com/100203073/178967838-a0da733f-5857-4b6e-90a2-f1ea379938f9.png)
+<h1 align="center"> My Portfolio </h1>
+<p align="center">Check my portfolio on any device </p>
+<p align="center"><a href="https://https://jamicreation.netlify.app"> Click here </a></p>
+<img src="https://user-images.githubusercontent.com/100203073/192134639-edeb63a3-c764-4307-b94c-5a2ff34a2c88.png" alt="portfolio" />
